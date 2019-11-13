@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Ярослав Рукавец](https://up.htmlacademy.ru/adaptive/18/user/547161).
-* Наставник: `Кирилл Генералов`.
+* Наставник: `Кирилл Генералов`(https://htmlacademy.ru/profile/hifull).
 
 ---
 
