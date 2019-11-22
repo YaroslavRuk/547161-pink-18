@@ -1,61 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Title</title>
   </head>
   <body>
-    <header class="page-header">
-      <a class="page-header__logo">
-        <img class="page-header__logo-image" src="" width="75" height="22" alt="Логотип Пинк">
+    <header class="header">
+      <a class="header__logo">
+        <img class="header__logo-image" src="" width="75" height="22" alt="Логотип Пинк">
       </a>
-      <nav class="page-header__main-nav main-nav">
+      <nav class="header__main-nav main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--active">
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item--active">
             <a>Главная</a>
           </li>
-          <li class="site-list__item">
+          <li class="main-nav__item">
             <a href="">Фотографии</a>
           </li>
-          <li class="site-list__item">
+          <li class="main-nav__item">
             <a href="">Конкурс</a>
           </li>
-          <li class="site-list__item">
+          <li class="main-nav__item">
             <a href="">Html Academy</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main class="main-photo-page">
-      <h1 class="main-photo-page__main-heading">Фотографии пользователей</h1>
-      <p class="main-photo-page__intro">
+    <main class="main main--photo-page">
+      <h1 class="main__main-heading">Фотографии пользователей</h1>
+      <p class="main__intro">
         Взгляните на фотографии, которые выкладывают пользователи!
         Видите, как не хватает ваших?
       </p>
-      <ul class="main-photo-page__picture-list"><!--надо ли в секшн обворачивать список?-->
-        <li class="main-photo-page__item">
-          <img class="main-photo-page__users-photo" src="#" alt="Панорама">
-          <cite>Анна</cite>
-          <!--<time>(5 минут назад)</time>-->
-          <q>
-            Прыгать или нет? Напишите в
-            комментарии свой совет и
-            смотрите прямую трансляцию в
-            перископе, задавайте свои вопросы!
-          </q>
+      <ul class="main__picture-list"><!--надо ли в секшн обворачивать список?-->
+        <li class="main__item">
+          <img class="main__users-photo" src="#" width="320" height="137" alt="Панорама дня">
+          <blockquote>
+            <cite>Анна</cite>
+            <time>(5 минут назад)</time>
+            <p>
+              Прыгать или нет? Напишите в
+              комментарии свой совет и
+              смотрите прямую трансляцию в
+              перископе, задавайте свои вопросы!
+            </p>
+          </blockquote>
           <p>Нравится: 215</p>
+        </li>
+        <li class="main__item">
+          <img class="main__users-photo" src="#" width="280" height="180" alt="Автомобиль перед камерой">
+          <blockquote>
+            <cite>Левон</cite>
+            <time>(5 часов назад)</time>
+            <p>
+              Вчера он на луну летал, сегодня в руки к нам попал.
+            </p>
+          </blockquote>
+          <p>Нравится: 356</p>
+        </li>
+        <li class="main__item">
+          <img class="main__users-photo" src="#" width="280" height="180" alt="Барабанная установка">
+          <blockquote>
+            <cite>Антон</cite>
+            <time>(12 часов назад)</time>
+            <p>
+              Соседи будут рады!
+            </p>
+          </blockquote>
+          <p>Нравится: 666</p>
+        </li>
+        <li class="main__item">
+          <img class="main__users-photo" src="#" width="280" height="180" alt="Вид неба сквозь стеклянную крышу">
+          <blockquote>
+            <cite>Борис</cite>
+            <time>(20 часов назад)</time>
+            <p>
+              Здесь могла быть ваша цитата о высоком и вечном.
+            </p>
+          </blockquote>
+          <p>Нравится: 215</p>
+        </li>
+        <li class="main__item">
+          <img class="main__users-photo" src="#" width="280" height="180" alt="Кубанская бахча">
+          <blockquote>
+            <cite>Сергей</cite>
+            <time>(25 часов назад)</time>
+            <p>
+              Самая кубанская в мире!
+            </p>
+          </blockquote>
+          <p>Нравится: 4</p>
+        </li>
+        <li class="main__item">
+          <img class="main__users-photo" src="#" width="280" height="180" alt="Фотография ног">
+          <blockquote>
+            <cite>Максим</cite>
+            <time>(40 часов назад)</time>
+            <p>
+              Где снег-то?
+            </p>
+          </blockquote>
+          <p>Нравится: 150</p>
+        </li>
+        <li class="main__item">
+          <img class="main__users-photo" src="#" width="280" height="180" alt="Крыло самолета">
+          <blockquote>
+            <cite>Надежда</cite>
+            <time>(45 часов назад)</time>
+            <p>
+              Всем GM и взаимные лайки!
+            </p>
+          </blockquote>
+          <p>Нравится: 2560</p>
         </li>
       </ul>
     </main>
-    <footer class="footer-photo-page">
-      <img class="footer-photo-page__logo" src="#" width="147" height="40" alt="Логотип">
+    <footer class="footer footer--photo-page">
+      <img class="footer__logo" src="#" width="147" height="40" alt="Логотип">
       <ul class="social-icons">
-        <li class="social-icons__item--twitter"></li>
-        <li class="social-icons__item--facebook"></li>
-        <li class="social-icons__item--youtube"></li>
+        <li class="social-icons__item social-icons__item--twitter"></li>
+        <li class="social-icons__item social-icons__item--facebook"></li>
+        <li class="social-icons__item social-icons__item--youtube"></li>
       </ul>
-      <p>Разработано в</p><!--иконка псевдоэлементом-->
+      <p class="developed-in">Разработано в</p><!--иконка псевдоэлементом-->
     </footer>
   </body>
 </html>
